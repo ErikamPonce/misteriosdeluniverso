@@ -5,61 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Misterios del Universo</title>
     <meta name="description" content="Explora los misterios más fascinantes del universo: agujeros negros, vida extraterrestre, galaxias y exploración espacial.">
+    <!--Referenciar estilos-->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Misterios del Universo 🌌</h1>
+
+<header>
+    <div class="contenedor-nav">
+        <h1 class="logo">Misterios del Universo</h1>
+
         <nav>
-            <!--utiliz lista ordenada-->
-            <ul>
-                <!--cada elemento que tiene ul va a tener referencia, y va a-->
+            <ul class="menu">
+                <li class="dropdown">
+                    <a href="#">Visita ▾</a>
+                    <ul class="submenu">
+                        <!--opciones donde contiene otra ventana (archivo)-->
+                        <li><a href="#">Descripción general</a></li>
+                        <li><a href="#">Museos y zoológico</a></li>
+                        <li><a href="#">Entrada y pautas</a></li>
+                        <li><a href="#">Mapas del museo</a></li>
+                        <li><a href="#">Cenar y comprar</a></li>
+                        <li><a href="#">Accesibilidad</a></li>
+                        <li><a href="#">Visitando con niños</a></li>
+                        <li><a href="#">Visitas en grupo</a></li>
+                    </ul>
+                </li>
+                <!--seleccionaos y nos manda al main(donde esta su informacion)-->
                 <li><a href="#agujeros-negros">Agujeros Negros</a></li>
                 <li><a href="#vida-extraterrestre">Vida Extraterrestre</a></li>
                 <li><a href="#galaxias">Galaxias</a></li>
                 <li><a href="#exploracion-espacial">Exploración Espacial</a></li>
-                <li><a href="#formulario">Contacto</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
 
-    <main>
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa" alt="Nebulosa del espacio">
+</section>
 
-        <!--tendra informacion-->
-        <section id="agujeros-negros">
-            <h2>Agujeros Negros</h2>
-            <article>
-                <p></p>
-            </article>
-        </section>
+<main>
+    <section id="agujeros-negros">
+        <h2>Agujeros Negros</h2>
+        <p>Los agujeros negros son regiones del espacio donde la gravedad es tan intensa que nada puede escapar.</p>
+    </section>
 
-        <section id="vida-extraterrestre">
-            <h2>Vida Extraterrestre</h2>
-            <article>
-                <p></p>
-            </article>
-        </section>
+    <section id="vida-extraterrestre">
+        <h2>Vida Extraterrestre</h2>
+        <p>La búsqueda de vida fuera de la Tierra es uno de los mayores desafíos científicos.</p>
+    </section>
 
-        <section id="galaxias">
-            <h2>Galaxias</h2>
-            <article>
-                <p></p>
-            </article>
-        </section>
+    <section id="galaxias">
+        <h2>Galaxias</h2>
+        <p>Las galaxias son enormes sistemas formados por estrellas, planetas y polvo cósmico.</p>
+    </section>
 
-        <section id="exploracion-espacial">
-            <h2>Exploración Espacial</h2>
-            <article>
-                <p></p>
-            </article>
-        </section>
+    <section id="exploracion-espacial">
+        <h2>Exploración Espacial</h2>
+        <p>Desde el primer satélite hasta Marte, la exploración espacial ha cambiado nuestra historia.</p>
+    </section>
+</main>
 
-        <section id="formulario">
-        </section>
-    </main>
+<a href="#" class="volver">↑ Volver arriba</a>
 
-    <footer>
-    </footer>
+<footer>
+    <!--Inspo: https://www.si.edu/explore/science/mysteries-universe-->
+</footer>
 
 </body>
 </html>
