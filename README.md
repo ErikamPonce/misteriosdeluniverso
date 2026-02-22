@@ -1,4 +1,4 @@
-##Misterios del Universo
+## Misterios del Universo
 Es un proyecto web inspirado en el estilo visual y estructural del sitio de Smithsonian. 
     El objetivo principal es presentar información sobre algunos de los fenómenos más fascinantes del universo, utilizando una estructura semántica en HTML5 y estilos personalizados en CSS.
     
